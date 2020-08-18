@@ -1,6 +1,6 @@
 {
     "name": "@vladbasin/ts-dependencies-reactjs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "ReactJS integration for @vladbasin/ts-dependencies",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -16,7 +16,7 @@
         "typescript": "^3.9.7"
     },
     "dependencies": {
-        "@vladbasin/ts-dependencies": "^1.0.0",
+        "@vladbasin/ts-dependencies": "^1.0.1",
         "@vladbasin/ts-types": "^1.0.2",
         "lodash": "^4.17.20",
         "react": "^16.13.1"

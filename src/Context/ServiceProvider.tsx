@@ -1,16 +1,16 @@
-import { ServicesContract } from "@vladbasin/ts-dependencies";
+import { ServiceProviderContract } from "@vladbasin/ts-dependencies";
 import React from "react";
 import { ServiceContext } from "./ServiceContext";
 
 type ServiceProviderType = {
-    services: ServicesContract,
+    provider: ServiceProviderContract,
     children: JSX.Element | JSX.Element[],
 }
 
 export const ServiceProvider = (props: ServiceProviderType) => {
     return (
         <ServiceContext.Provider 
-            value={props.services}
+            value={props.provider}
         >
             {props.children}
         </ServiceContext.Provider>

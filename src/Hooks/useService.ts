@@ -11,5 +11,5 @@ export const useService = <T extends unknown>(id: string) => {
         );
     }
 
-    return context.get<T>(id);
+    return context.provide<T>(id);
 }

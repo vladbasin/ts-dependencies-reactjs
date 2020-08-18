@@ -11,5 +11,5 @@ export const useServices = (ids: string[]): any[] => {
         );
     }
 
-    return ids.map(id => context.get(id));
+    return ids.map(id => context.provide(id));
 }
