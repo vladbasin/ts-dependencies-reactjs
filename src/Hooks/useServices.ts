@@ -1,6 +1,6 @@
 import { isNil } from 'lodash';
 import { useContext } from "react";
-import { ServiceContext } from '../Models/ServiceContext';
+import { ServiceContext } from '../Context/ServiceContext';
 
 export const useServices = (ids: string[]): any[] => {
     const context = useContext(ServiceContext);
