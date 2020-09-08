@@ -1,6 +1,6 @@
 {
     "name": "@vladbasin/ts-dependencies-reactjs",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "ReactJS integration for @vladbasin/ts-dependencies",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -18,7 +18,7 @@
         "react": "^16.13.1"
     },
     "peerDependencies": {
-        "lodash": "^4.17.20",
+        "lodash": "*",
         "react": "*"
     },
     "dependencies": {
