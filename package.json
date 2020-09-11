@@ -1,6 +1,6 @@
 {
     "name": "@vladbasin/ts-dependencies-reactjs",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "description": "ReactJS integration for @vladbasin/ts-dependencies",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -9,6 +9,10 @@
     },
     "author": "Vlad Basin",
     "license": "GPL-3.0-only",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vladbasin/ts-dependencies-reactjs.git"
+    },
     "devDependencies": {
         "@types/lodash": "^4.14.159",
         "@types/react": "^16.9.46",
@@ -18,7 +22,6 @@
         "react": "^16.13.1"
     },
     "peerDependencies": {
-        "lodash": "*",
         "react": "*"
     },
     "dependencies": {
